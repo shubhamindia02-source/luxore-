@@ -1,0 +1,485 @@
+
+/*-------------hero section------- */
+
+#hero-sec {
+  margin-top: 120px;
+  height: 70vh;
+  background-color: var(--light);
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+
+  margin-left: 20%;
+  padding: 20px 20px;
+ 
+
+}
+
+.hero-grid {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+
+.hero-text {
+
+  width: 45%;
+  margin-top: 150px;
+}
+
+.hero-text h2 {
+  font-size: 4rem;
+  line-height: 60px;
+
+}
+
+.hero-text p {
+  font-family: var(--f2);
+  font-size: 1.2rem;
+  margin-top: 15px;
+  width: 80%;
+
+}
+
+.hero-text .btn {
+  display: inline-block;
+  background-color: var(--dark);
+  color: #fff;
+  padding: 13px 28px;
+  border: 2px solid var(--dark);
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--f2);
+  margin-top: 20px;
+
+}
+
+.hero-text .btn-two {
+  background-color: transparent;
+  color: var(--dark);
+
+}
+
+.btn:hover {
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+  color: #fff;
+  transition: background 0.3s;
+
+}
+
+
+.banner {
+  width: 45%;
+  height: 520px;
+  margin-top: 70px;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+
+.banner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: opacity 1.3s linear;
+}
+
+
+
+
+/* ----------------------- */
+
+
+.tittle {
+
+  font-size: 2.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.cat-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cat-box div {
+  width: 15%;
+  background-color: grey;
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  
+  
+  
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+  color: red;
+  cursor: pointer;
+ 
+
+
+}
+
+.cat-box div:hover .boxx{
+  transform: scale(1.2);
+  transition:  all 0.3s ease-in-out;
+}
+.cat-box div .boxx{
+   width: 100%;
+
+}
+
+
+.cat-box div h2{
+color: var(--light);
+font-weight: 100;
+font-size: 1.2rem;
+  font-family: var(--f2);
+
+  z-index: 2;
+  margin-bottom: 20px;
+  
+  margin-left: -150px;
+} 
+
+
+
+
+
+
+
+
+
+
+/* info====--------- */
+
+
+#info{
+  background-color: var(--dark);
+  height: 200px;
+  width: 100vw;
+}
+.info-container{
+ 
+display: flex;
+flex-wrap:wrap ;
+
+
+padding-top: 70px;
+gap: 20px;
+
+
+
+}
+.point{
+  
+  width: 24%;
+  height:fit-content;
+  /* background-color: red; */
+ 
+
+
+}
+
+
+.point h3{
+  font-size: 1.3rem;
+  font-family: var(--f2);
+  color: var(--soft-light);
+  font-weight: 500;
+
+}
+.point h4{
+  font-family: var(--f2);
+  color: var(--light);
+  font-weight: 100;
+  font-size: 1rem;
+  
+}
+
+
+
+
+
+
+/* --------secction email---------- */
+
+
+
+
+
+#form-email{
+  background-color: var(--line);
+
+}
+
+
+.form-container  div{
+  width: 80%;
+ 
+
+  text-align: center;
+  padding: 30px 20px;
+  margin-left: 10%;
+
+}
+
+.form-container h3{
+  color: var(--dark);
+  font-size: 2.4rem;
+}
+
+.form-container h4{
+  font-family: var(--f2);
+  font-size: 1.2rem;
+  font-weight: 100;
+  color:#000;
+}
+
+
+
+
+
+
+.form-container input{
+  width: 50%;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid var(--light);
+  
+  padding: 10px 10px;
+}
+
+.form-container .email-btn{
+ background-color: var(--dark);
+ border: 1px solid var(--dark);
+ width: 20%;
+ font-size: 1.3rem;
+ color: var(--light);
+ height: 50px;
+ margin-top: 20px;
+ border-radius: 4px;
+ margin-left: 15px;
+ cursor: pointer;
+
+}
+.btn:hover {
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+  color: #fff;
+  transition: background 0.3s;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media qureys  */
+
+/* ========   MOBILE  (max-width:767px)   ===== */
+
+
+@media (max-width:767px) {
+
+ #hero-sec{
+ 
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 30px;
+
+ }
+
+ .container{
+  width: 90%;
+  
+  margin-left: 5%;
+ 
+  
+}
+.hero-grid{
+  flex-direction: column;
+}
+
+.hero-text {
+
+  width: 100%;
+  margin-top: 80px;
+}
+
+.hero-text h2{
+   font-size: 2.9rem;
+   line-height: 35px;
+}
+
+.hero-text p{
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.hero-text .btn-two{
+
+    padding: 13px 40px;
+
+
+  
+}
+ 
+.banner {
+  width: 100%;
+  height: 310px;
+  margin-top: 10px;
+  position: relative;
+}
+.banner img{
+  width: 100%;
+}
+
+
+
+
+.categorie .container{
+  padding: 0%;
+}
+
+.categorie-grid{
+  margin-bottom: -100px;
+}
+
+
+.cat-box{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.cat-box div{
+  width: 95%;
+  margin-left: 2px;
+  margin-right: 0;
+  
+}
+
+
+    /* <!-- --- info -- */
+
+
+    
+
+   .info-container{
+      
+      width: 90%; 
+    
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     padding-top:30px ;
+
+   
+    
+    }
+
+    .point{
+           width: 90%;
+          
+    }
+
+    .point h3{
+       font-size: 1rem;
+    }
+
+    .point h4{
+      font-size: 0.7rem;
+
+    } 
+
+       
+
+   
+    .form-container{
+      
+      padding: 10px;
+    }
+
+    .form-container div{
+      width: 100%;
+    
+      margin: auto;
+      padding: 0;
+      align-content:center ;
+       
+
+    }
+    .form-container h3{
+      font-size: 1.7rem;
+    } 
+
+     .form-container h4{
+
+         
+            font-size: 1rem;
+
+
+    }
+
+    .form-container input{
+      
+         margin: 0;
+         width: 60%;
+
+
+    }
+    .form-container .email-btn{
+      width: 30%;
+    
+      font-size: 1rem;
+    } 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

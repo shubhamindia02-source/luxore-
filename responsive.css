@@ -1,0 +1,199 @@
+/* @media (min-width:992px) {
+
+    .slide-menu {
+        display: none !important;
+    }
+
+} */
+
+/* ========   MOBILE  (max-width:767px)   ===== */
+
+
+@media (max-width:767px) {
+
+
+
+    /* header */
+
+    
+
+
+
+
+
+    header {
+        width: 100vw;
+        height: fit-content;
+
+    }
+
+    .offer-bar {
+        font-size: 0.7rem;
+    }
+
+    .container-head {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 8px 12px;
+        padding: 8px 16px 12px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .container-head>div:nth-child(2) {
+        order: 3;
+        flex: 1 0 100%;
+    }
+
+    .search-bar {
+        width: 100%;
+        background-color: var(--light);
+    }
+
+    .container-head>div:last-child {
+        order: 2;
+        white-space: nowrap;
+    }
+
+    .top-btn {
+        margin-left: 8px;
+        font-size: 1rem;
+    }
+
+
+    .nav-cont .nav-links {
+        width: fit-content;
+
+        gap: 24px;
+        margin: auto;
+
+    }
+
+    .link {
+        font-size: 1rem;
+    }
+
+
+
+
+    /* shoping product?----------------------- */
+
+
+
+    #item {
+        width: 100vw;
+
+        padding: 0px 0px;
+        margin-top: 100px;
+    }
+
+    #item .container {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .collect {
+        margin: auto;
+    }
+
+    .item-box {
+
+
+        width: 90vw;
+        margin-left: 2px;
+
+    }
+
+    #card {
+        width: 47%;
+
+        margin: 0;
+
+    }
+
+    #card img {
+        width: 115%;
+
+    }
+
+    #card a h3 {
+        font-size: 1.1rem;
+    }
+
+    #card .brand-name {
+        font-size: 0.8rem;
+
+    }
+
+    #card .brand-price {
+        font-size: 0.8rem;
+    } 
+
+
+
+
+
+    /* ?footer  */
+
+   
+
+    
+    .footer-text{
+         margin-bottom: 30px;
+    }
+
+    .footer-layout h4{
+        font-size: 1rem;
+    }
+    .foot-links{
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+
+    .copy{
+        font-size: 0.4rem;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ========   TABLET  (min-width:768px) and (max-width:991px)   ========*/
+@media (min-width:768px) and (max-width:991px) {}
+
+
+
+
+
+/* =========   LAPTOP  (min-width:992px) and (max-width:1199px)   ============== */
+@media (min-width:992px) and (max-width:1199px) {}

@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --dark: #1b0e24;
+  /* deep aubergine */
+
+  --accent: #b8863b;
+  /* champagne gold */
+
+  --pink: #e8397d;
+  /* sale color */
+
+  --light: #f6f2f8;
+  /* soft lilac grey */
+
+  --text: #2b2433;
+  --muted: #7b7385;
+  --line: #e6e0ea;
+  /* --line: #d0cad4; */
+  --soft-light: #f1e3c8;
+
+  --f1: "Bodoni Moda", Georgia, serif;
+  --f2: "Jost", Arial, sans-serif;
+
+}
+
+body {
+  /* font-family: "Jost", Arial, sans-serif; */
+
+  color: var(--text);
+  background: #fff;
+  line-height: 1.5;
+}
+
+
+/* header section  */
+header {
+
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: fit-content;
+
+  background-color: var(--light);
+
+}
+
+.offer-bar {
+  background-color: var(--dark);
+  color: var(--soft-light);
+  font-weight: 100;
+  font-size: 0.9rem;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  font-family: var(--f2);
+
+}
+
+
+.container-head {
+  /* background-color: var(--light); */
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+   /* flex-wrap: wrap; */
+  gap: 50px;
+
+}
+
+.fa-arrow-left {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  color: #2a1537;
+  cursor: pointer;
+}
+
+.fa-arrow-left:hover {
+  color: var(--accent);
+  transition: color 0.3s;
+}
+
+
+.logo {
+  font-size: 2.5rem;
+  font-family: var(--f1);
+  font-weight: 700;
+
+}
+
+.search-bar {
+
+  /* background-color: var(--light); */
+  width: 650px;
+  height: 40px;
+  border: 1px solid var(--line);
+  padding: 11px 16px;
+  border-radius: 10px;
+
+
+}
+
+.search-bar:focus {
+  outline: 1px solid var(--accent);
+}
+
+.top-btn {
+
+  margin-left: 30px;
+}
+
+.nav-cont {
+  background-color: #fff;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid var(--line);
+
+}
+
+.nav-cont .nav-links {
+
+  width: 40%;
+  margin-left: 30%;
+
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.link {
+  font-size: 1.1rem;
+  text-decoration: none;
+
+  font-family: var(--f2);
+  color: var(--text);
+  font-weight: 500;
+
+
+}
+
+.nav-links .active{
+  color: var(--accent);
+}
+
+.link:hover {
+  color: var(--accent);
+  transition: color 0.3s;
+}
+
+.active1{
+    color: red;
+    transition: color 0.3s ease;
+}
+
+
+/* --------footer section-- */
+
+
+
+#footer {
+  background-color: var(--dark);
+
+}
+
+
+.container {
+  width: 60%;
+  height: 100%;
+
+  margin-left: 20%;
+  padding: 20px 20px;
+ 
+
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-text a {
+  font-size: 1.3rem;
+  color: var(--light);
+  text-decoration: none;
+
+}
+
+.footer-text p {
+  font-family: var(--f2);
+  font-size: 0.9rem;
+  color: var(--light);
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.footer-layout h4 {
+  font-size: 1.1rem;
+  font-family: var(--f2);
+  font-weight: 500;
+  color: var(--light);
+  opacity: 0.9;
+  margin-bottom: 15px;
+
+}
+
+.foot-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5PX;
+}
+
+.foot-links a {
+  font-family: var(--f2);
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: var(--light);
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.foot-links a:hover {
+  color: var(--accent);
+  opacity: 1;
+  transition: color 0.2s ease-in;
+}
+
+#copy {
+  text-align: center;
+  color: var(--light);
+  border-top: 1px solid #ffffff3a;
+  background: var(--dark);
+  padding: 10px;
+
+}
+
+#copy p {
+  font-size: 1rem;
+  font-family: var(--f2);
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+/* footer end here  */
+
+
+
+
+
+
+
+
+
+
+
+
+ #item {
+    background-color: var(--line);
+    height: fit-content;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 100px;
+
+}
+
+.collect {
+    display: flex;
+
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+
+}
+
+.tittle{
+    font-size: 2.5rem;
+   
+    color: var(--text);
+    align-content: center;
+    
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.item-box {
+
+
+
+    margin-bottom: 30px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+
+
+    flex-wrap: wrap;
+}
+
+
+
+#card {
+    width: 260px;
+    background-color: var(--light);
+    height: fit-content;
+    padding: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    
+
+
+}
+
+.card-img {
+
+    width: 108.4%;
+    margin-left: -10px;
+    margin-top: -10px;
+
+}
+
+a {
+    text-decoration: none
+}
+
+
+
+
+#card:hover .card-img{
+  transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
+
+#card a h3 {
+    font-size: 1.3rem;
+    font-family: var(--f2);
+    font-weight: 500;
+    color: var(--text);
+
+}
+
+.brand-name {
+    font-family: var(--f2);
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.brand-price {
+    font-family: var(--f2);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.last-price {
+    font-weight: 400;
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.off {
+    color: red;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.add {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    /* padding: 5px 5px; */
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--dark);
+    cursor: pointer;
+    opacity: 1;
+   
+
+
+
+}
+
+.add:hover {
+    background-color: var(--dark);
+    transition: all 0.3s ease-in-out;
+
+    color: var(--light);
+}
+
+
