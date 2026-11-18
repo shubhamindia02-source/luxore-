@@ -304,6 +304,38 @@ gap: 20px;
 
 /* media qureys  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ========   MOBILE  (max-width:767px)   ===== */
 
 
@@ -390,31 +422,34 @@ gap: 20px;
     /* <!-- --- info -- */
 
 
+
     
 
    .info-container{
       
-      width: 90%; 
+      width: 80%; 
     
      display: grid;
      grid-template-columns: repeat(2,1fr);
-     padding-top:30px ;
+     padding-top:10px ;
+     
+     
 
    
     
     }
 
     .point{
-           width: 90%;
+           width: 80%;
           
     }
 
     .point h3{
-       font-size: 1rem;
+       font-size: 0.8rem;
     }
 
     .point h4{
-      font-size: 0.7rem;
+      font-size: 0.6rem;
 
     } 
 
@@ -436,13 +471,13 @@ gap: 20px;
 
     }
     .form-container h3{
-      font-size: 1.7rem;
+      font-size: 1.3rem;
     } 
 
      .form-container h4{
 
          
-            font-size: 1rem;
+            font-size: 0.7rem;
 
 
     }
@@ -455,9 +490,9 @@ gap: 20px;
 
     }
     .form-container .email-btn{
-      width: 30%;
+      width: 32%;
     
-      font-size: 1rem;
+      font-size: 0.8rem;
     } 
 
 

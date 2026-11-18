@@ -6,10 +6,141 @@
 
 } */
 
+
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    header {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .offer-bar {
+        font-size: 0.7rem;
+    }
+
+    .container-head {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 8px 12px;
+        padding: 8px 16px 12px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .container-head > div:nth-child(2) {
+        order: 3;
+        flex: 1 0 100%;
+    }
+
+    .search-bar {
+        width: 100%;
+        background-color: var(--light);
+    }
+
+    .container-head > div:last-child {
+        order: 2;
+        white-space: nowrap;
+    }
+
+    .top-btn {
+        margin-left: 8px;
+        font-size: 1rem;
+    }
+
+    .nav-cont .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 14px;
+        margin: 0;
+        padding: 4px 8px;
+    }
+
+    .link {
+        font-size: 0.8rem;
+    }
+
+    #item {
+        width: 100%;
+        padding: 0 0 10px;
+        margin-top: 100px;
+        height: fit-content;
+    }
+
+    #item .container {
+        width: 100%;
+        margin: 0;
+        padding: 0 5px;
+    }
+
+    .collect {
+        margin: auto;
+    }
+
+    .item-box {
+        width: 100%;
+        gap: 10px;
+    }
+
+    #card {
+        width: calc(50% - 5px);
+        margin: 0;
+    }
+
+    #card img {
+        display: block;
+        width: calc(100% + 20px);
+    }
+
+    #card a h3 {
+        font-size: 0.9rem;
+    }
+
+    #card .brand-name {
+        font-size: 0.7rem;
+    }
+
+    #card .brand-price {
+        font-size: 0.6rem;
+    }
+
+    #card .add {
+        height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .footer-text {
+        margin-bottom: 30px;
+    }
+
+    .footer-layout h4 {
+        font-size: 1rem;
+    }
+
+    .foot-links {
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+
+    .copy {
+        font-size: 0.65rem;
+    }
+}
+
 /* ========   MOBILE  (max-width:767px)   ===== */
 
 
-@media (max-width:767px) {
+@media ( min-width:376px)and  (max-width:767px) {
 
 
 
