@@ -1,4 +1,10 @@
+body{
+  background-color: var(--light);
+}
+
 .formp-grid {
+
+
   width: 20%;
   height: 100%;
 
