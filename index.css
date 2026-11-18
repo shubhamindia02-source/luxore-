@@ -178,12 +178,13 @@ font-size: 1.2rem;
 #info{
   background-color: var(--dark);
   height: 200px;
-  width: 100vw;
+  width: 100%;
+ 
 }
 .info-container{
  
 display: flex;
-flex-wrap:wrap ;
+
 
 
 padding-top: 70px;
@@ -196,7 +197,7 @@ gap: 20px;
   
   width: 24%;
   height:fit-content;
-  /* background-color: red; */
+ 
  
 
 
@@ -402,6 +403,8 @@ gap: 20px;
   padding: 0%;
 }
 
+
+
 .categorie-grid{
   margin-bottom: -100px;
 }
@@ -427,11 +430,13 @@ gap: 20px;
 
    .info-container{
       
-      width: 80%; 
+      width: 100%;
+  
+      margin: 0;
     
      display: grid;
      grid-template-columns: repeat(2,1fr);
-     padding-top:10px ;
+     padding-top:30px ;
      
      
 
@@ -440,7 +445,8 @@ gap: 20px;
     }
 
     .point{
-           width: 80%;
+           width: 100%;
+         
           
     }
 

@@ -1,49 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in</title>
 
-    
-   
     <!-- ------ google fotns links--------- -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=Jost:wght@400;500&display=swap"
-        rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=Jost:wght@400;500&display=swap" rel="stylesheet" />
 
     <!-- ------ icons cdn links--------- -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" />
 
     <!-- ------ jquery links--------- -->
 
     <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
 
-
-
     <!-- ------files inks --------- -->
-       
-     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="form.css">
-    
-    <!-- links end here -->
 
+    <link rel="stylesheet" href="master.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!-- links end here -->
 </head>
+
 <body>
     <!-- ---- HEADER SECTION WITH NAV BAR---- -->
     <header>
         <div class="site-header">
-
-            <div class="offer-bar">Free shipping above ₹1,999 and easy 15-day returns</div>
-
-
+            <div class="offer-bar">
+                Free shipping above ₹1,999 and easy 15-day returns
+            </div>
 
             <div class="container-head">
-                
-                 <!-- back icon -->
+                <!-- back icon -->
                 <i id="backbtn" class="fa-solid fa-arrow-left"></i>
 
                 <div class="logo">Luxora</div>
@@ -72,27 +65,21 @@
                 </nav>
             </div> -->
         </div>
-
-
     </header>
-
 
     <section id="hero-form">
         <div class="container formp-grid">
-
             <h2>Sign in</h2>
 
             <form action="">
-
                 <div>
-                <label for="">Email</label>
-                <input type="email" name="email" placeholder="Enter Email id or phone no" required>
+                    <label for="">Email</label>
+                    <input type="email" name="email" placeholder="Enter Email id or phone no" required />
                 </div>
 
-
                 <div>
-                <label for="">Password</label>
-                <input type="password" name="pw" minlength="6" placeholder="Enter your password " required>
+                    <label for="">Password</label>
+                    <input type="password" name="pw" minlength="6" placeholder="Enter your password " required />
                 </div>
 
                 <button class="btn full" type="submit">Sign in</button>
@@ -102,39 +89,27 @@
                 New to Luxora?
                 <span id="btn-1"> Create account</span>
             </p>
-
-
-
-
         </div>
-
     </section>
-
-
 
     <section id="sec-form">
         <div class="container formp-grid">
-
             <h2>Create Account</h2>
 
             <form action="">
-
                 <div>
-                <label for="">Full Name</label>
-                <input type="email" name="email" placeholder="Enter your name" required>
+                    <label for="">Full Name</label>
+                    <input type="email" name="email" placeholder="Enter your name" required />
                 </div>
 
-
-
-                    <div>
-                <label for="">Email</label>
-                <input type="email" name="email" placeholder="Enter Email id " required>
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" name="email" placeholder="Enter Email id " required />
                 </div>
 
-
                 <div>
-                <label for="">Password</label>
-                <input type="password" name="pw" minlength="6" placeholder="Enter your password " required>
+                    <label for="">Password</label>
+                    <input type="password" name="pw" minlength="6" placeholder="Enter your password " required />
                 </div>
 
                 <button class="btn full" type="submit">Sign in</button>
@@ -144,55 +119,29 @@
                 Already have an account?
                 <span id="btn-2">Sign in</span>
             </p>
-
-
-
-
         </div>
-
     </section>
-
-
-
-
-
-
-    
 </body>
 
-
-
 <script>
+    $(document).ready(function() {
+        $("#sec-form").hide();
 
-    $(document).ready(function(){
+        $("#btn-1").click(function() {
+            $("#sec-form").slideToggle(500);
+            $("#hero-form").hide();
+        });
 
+        $("#btn-2").click(function() {
+            $("#hero-form").slideToggle(500);
+            $("#sec-form").hide();
+        });
 
-      $("#sec-form").hide()
- 
-        $("#btn-1").click(function(){
-            $("#sec-form").slideToggle(500)
-            $("#hero-form").hide()
-        })
-
-        $("#btn-2").click(function(){
-           
-            $("#hero-form").slideToggle(500)
-             $("#sec-form").hide()
-        })
-
-
-
-
-
-
-
-  
-    $("#backbtn").click(function () {
-        history.back();
+        $("#backbtn").click(function() {
+            history.back();
+        });
     });
 
-      })
-
-
 </script>
+
 </html>

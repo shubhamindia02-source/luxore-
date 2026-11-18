@@ -29,29 +29,23 @@ html {
 
   --f1: "Bodoni Moda", Georgia, serif;
   --f2: "Jost", Arial, sans-serif;
-
 }
 
 body {
-  /* font-family: "Jost", Arial, sans-serif; */
-
   color: var(--text);
   background: #fff;
   line-height: 1.5;
 }
 
-
 /* header section  */
 header {
-
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
   height: fit-content;
 
   background-color: var(--light);
-
 }
 
 .offer-bar {
@@ -63,9 +57,7 @@ header {
   text-align: center;
   align-content: center;
   font-family: var(--f2);
-
 }
-
 
 .container-head {
   /* background-color: var(--light); */
@@ -75,9 +67,8 @@ header {
   align-items: center;
   justify-content: center;
   height: 60px;
-   /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
   gap: 50px;
-
 }
 
 .fa-arrow-left {
@@ -95,24 +86,19 @@ header {
   transition: color 0.3s;
 }
 
-
 .logo {
   font-size: 2.5rem;
   font-family: var(--f1);
   font-weight: 700;
-
 }
 
 .search-bar {
-
   /* background-color: var(--light); */
   width: 650px;
   height: 40px;
   border: 1px solid var(--line);
   padding: 11px 16px;
   border-radius: 10px;
-
-
 }
 
 .search-bar:focus {
@@ -120,7 +106,6 @@ header {
 }
 
 .top-btn {
-
   margin-left: 30px;
 }
 
@@ -130,20 +115,15 @@ header {
   align-items: center;
   align-content: center;
   border-bottom: 1px solid var(--line);
-
 }
 
 .nav-cont .nav-links {
-
   width: 40%;
   margin-left: 30%;
 
-
   display: flex;
   justify-content: space-around;
-
 }
-
 
 .link {
   font-size: 1.1rem;
@@ -152,11 +132,9 @@ header {
   font-family: var(--f2);
   color: var(--text);
   font-weight: 500;
-
-
 }
 
-.nav-links .active{
+.nav-links .active {
   color: var(--accent);
 }
 
@@ -165,21 +143,16 @@ header {
   transition: color 0.3s;
 }
 
-.active1{
-    color: red;
-    transition: color 0.3s ease;
+.active1 {
+  color: red;
+  transition: color 0.3s ease;
 }
-
 
 /* --------footer section-- */
 
-
-
 #footer {
   background-color: var(--dark);
-
 }
-
 
 .container {
   width: 60%;
@@ -187,8 +160,6 @@ header {
 
   margin-left: 20%;
   padding: 20px 20px;
- 
-
 }
 
 .footer-layout {
@@ -201,7 +172,6 @@ header {
   font-size: 1.3rem;
   color: var(--light);
   text-decoration: none;
-
 }
 
 .footer-text p {
@@ -219,13 +189,12 @@ header {
   color: var(--light);
   opacity: 0.9;
   margin-bottom: 15px;
-
 }
 
 .foot-links {
   display: flex;
   flex-direction: column;
-  gap: 5PX;
+  gap: 5px;
 }
 
 .foot-links a {
@@ -250,7 +219,6 @@ header {
   border-top: 1px solid #ffffff3a;
   background: var(--dark);
   padding: 10px;
-
 }
 
 #copy p {
@@ -262,161 +230,111 @@ header {
 
 /* footer end here  */
 
-
-
-
-
-
-
-
-
-
-
-
- #item {
-    background-color: var(--line);
-    height: fit-content;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    margin-top: 100px;
-
+#item {
+  background-color: var(--line);
+  height: fit-content;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-top: 100px;
 }
 
 .collect {
-    display: flex;
+  display: flex;
 
-    text-align: center;
-    align-content: center;
-    justify-content: space-between;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
 
-    margin-top: 30px;
-    margin-bottom: 70px;
-
-
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
-.tittle{
-    font-size: 2.5rem;
-   
-    color: var(--text);
-    align-content: center;
-    
-   
+.tittle {
+  font-size: 2.5rem;
 
-
-
-
+  color: var(--text);
+  align-content: center;
 }
-
-
-
-
-
-
-
 
 .item-box {
+  margin-bottom: 30px;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
 
-
-
-    margin-bottom: 30px;
-    display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 21px;
-
-
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-
-
 #card {
-    width: 260px;
-    background-color: var(--light);
-    height: fit-content;
-    padding: 10px 10px;
-    cursor: pointer;
-    overflow: hidden;
-    
-
-
+  width: 260px;
+  background-color: var(--light);
+  height: fit-content;
+  padding: 10px 10px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .card-img {
-
-    width: 108.4%;
-    margin-left: -10px;
-    margin-top: -10px;
-
+  width: 108.4%;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 a {
-    text-decoration: none
+  text-decoration: none;
 }
 
-
-
-
-#card:hover .card-img{
+#card:hover .card-img {
   transform: scale(1.04);
   transition: all 0.3s ease-in-out;
 }
 
-
 #card a h3 {
-    font-size: 1.3rem;
-    font-family: var(--f2);
-    font-weight: 500;
-    color: var(--text);
-
+  font-size: 1.3rem;
+  font-family: var(--f2);
+  font-weight: 500;
+  color: var(--text);
 }
 
 .brand-name {
-    font-family: var(--f2);
-    font-weight: 300;
-    font-size: 1rem;
-
+  font-family: var(--f2);
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .brand-price {
-    font-family: var(--f2);
-    font-weight: 600;
-    font-size: 1rem;
+  font-family: var(--f2);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .last-price {
-    font-weight: 400;
-    text-decoration: line-through;
-    opacity: 0.8;
+  font-weight: 400;
+  text-decoration: line-through;
+  opacity: 0.8;
 }
 
 .off {
-    color: red;
-    font-weight: 300;
-    font-size: 0.9rem;
+  color: red;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .add {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 1.1rem;
-    /* padding: 5px 5px; */
-    height: 40px;
-    background-color: transparent;
-    border: 1px solid var(--dark);
-    cursor: pointer;
-    opacity: 1;
-   
-
-
-
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  /* padding: 5px 5px; */
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--dark);
+  cursor: pointer;
+  opacity: 1;
 }
 
 .add:hover {
-    background-color: var(--dark);
-    transition: all 0.3s ease-in-out;
+  background-color: var(--dark);
+  transition: all 0.3s ease-in-out;
 
-    color: var(--light);
+  color: var(--light);
 }
-
-
